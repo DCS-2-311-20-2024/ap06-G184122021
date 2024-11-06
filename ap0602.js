@@ -187,9 +187,9 @@ scene.add(seats);
   iframe.style.width = "640px";
   iframe.style.height = "360px";
   iframe.style.border = "0px";
-  iframe.src = "https://www.youtube.com/embed/ebPQ2AxULf8?si=DTJqJ5nxO76CjhyZ"
+  iframe.src = "https://www.youtube.com/embed/ebPQ2AxULf8?si=Jd0fHuVK9jDlllra"
       +"&mute=1&autoplay=1&controls=0"
-      +"&loop=1&playlist=w23RIKTYF28,-9pMuSNlN6A";
+      //+"&loop=1&playlist=w23RIKTYF28,-9pMuSNlN6A";
   
   // CSSオブジェクトの生成
   const cssObject = new CSS3DObject(iframe);
