@@ -146,8 +146,11 @@ function init() {
     display.add(standBack);
 
     // 影の設定
-    display.castShadow=true;
-    display.receiveShadow=true;
+    display.children.forEach((child) => {
+      child.castShadow=true;
+      child.receiveShadow=true;
+    })
+
   }
   scene.add(display);
 
